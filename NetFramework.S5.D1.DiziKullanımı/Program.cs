@@ -12,7 +12,7 @@ namespace NetFramework.S05.D1.DiziNedir
         {
             string[] ogrenciIsimListesi = new string[5];
 
-            // Nasıl değer ekleyeceğiz?
+            // Diziye eleman ekleme
 
             ogrenciIsimListesi[0] = "Halim Can Ocaklı";
             ogrenciIsimListesi[1] = "Cengiz Atilla";
@@ -21,11 +21,9 @@ namespace NetFramework.S05.D1.DiziNedir
             ogrenciIsimListesi[4] = "Mert Kurtuluş";
 
 
-            // Nasıl ekrana yazdıracağız?
+            // Dizi elemanlarını ekrana yazdırma
 
             Console.WriteLine(ogrenciIsimListesi[1]);
-
-            #region Dizi Elemanlarını Ekrana Yazdırma
 
             foreach (string item in ogrenciIsimListesi)
             {
@@ -38,8 +36,6 @@ namespace NetFramework.S05.D1.DiziNedir
             }
 
             Console.ReadLine();
-
-            #endregion
         }
     }
 }
