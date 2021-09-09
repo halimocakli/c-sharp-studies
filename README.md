@@ -1,2 +1,2 @@
 # CSharpLectureCodesAndNotes
-C# programlama dili eğitimim süresince kullandığım kodları ve bu kodlar içerisine yorum satırı olarak eklediğim notları içeren repository
+Repository containing the codes I used during my C# programming language education and the notes I added as a comment line in these codes.
