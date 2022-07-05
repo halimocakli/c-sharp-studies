@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C4A7C40A-FD6A-40A1-B3BB-FD509D054498}</ProjectGuid>
+    <ProjectGuid>{E04F72C9-73F8-44EF-9030-36954382D1A2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>NetFramework.S01.D00.Oryantasyon</RootNamespace>
     <AssemblyName>NetFramework.S01.D00.Oryantasyon</AssemblyName>
