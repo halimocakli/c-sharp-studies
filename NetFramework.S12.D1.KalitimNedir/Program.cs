@@ -24,7 +24,7 @@ namespace NetFramework.S12.D1.KalitimNedir
              * ilgili akımdan bir bytelık veri okunmasıdır.
              *
              * Sınıfları türetmeyi daha iyi anlamak için şu şekilde bir örnek verelim: Memeliler diye bir sınıf tasarlamış olalım. Kedi, köpek, inek gibi bütün hayvanlar
-             * memeli grubuna girmektedir. Ancak her hayvanın kendisine haz özellikleri vardır. Bu hayvanları Memeli olarak tanımlayabiliyor olsak da kedi ve köpek arasındaki
+             * memeli grubuna girmektedir. Ancak her hayvanın kendisine has özellikleri vardır. Bu hayvanları Memeli olarak tanımlayabiliyor olsak da kedi ve köpek arasındaki
              * tek benzerlik memeli olmaları olabilir. Bu durumda her hayvanı farklı bir sınıf ile ifade ederek sorunu çözebiliriz. Ancak her sınıfta memeli hayvanların
              * özelliklerini tanımlama zor olur. Bunun yerine memeli hayvanların ortak özelliklerini Memeli isimli bir sınıfta toplamalıyız. Bu sınıfta her memeli hayvanda
              * bulunması gereken özellikler tanımlanır. Diğer Kedi, Kopek gibi sınıflar ise Memeli sınıfının bir devamı olarak tasarlanır. Her özel sınıf Memeli sınıfına
@@ -41,7 +41,7 @@ namespace NetFramework.S12.D1.KalitimNedir
              * - Kalıtım yolu ile oluşturmuş olduğumuz nesnelerimiz birbirlerinden türetilebilir ve türeyen nesne türetilen nesnenin tüm özelliklerini kullanabilir.
              * - C# programlama diline başlarken tip dönüşümlerinde tüm nesneleri tanıyan ve her türden nesneyi kabul eden "Object" tipinden bahsetmiştik.
              *
-             * - Object tipi framework içerisindeki tüm nesnelerin atası bir tip olduğu için -tüm nesnener Object nesnesinden kalıtıldığı için- türetilen tip
+             * - Object tipi framework içerisindeki tüm nesnelerin atası bir tip olduğu için -tüm nesneler Object nesnesinden kalıtıldığı için- türetilen tip
              * kendisinden türeyen tüm tipleri tanır ve tam bir uyumluluk sağlar.
              *
              * Ogrenci O1 = new Ogrenci();
@@ -197,7 +197,6 @@ namespace NetFramework.S12.D1.KalitimNedir
 
             Ogrenci O4 = new Ogrenci();
             // => O4.TemelTipMetot2(); => ulaşamıyoruz
-
         }
     }
 }
